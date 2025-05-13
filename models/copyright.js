@@ -53,9 +53,10 @@ module.exports = (sequelize, DataTypes) => {
   }, {
     sequelize,
     modelName: 'Copyright',
-    tableName: 'Copyrights', // Explicit untuk menghindari pluralisasi aneh
+    tableName: 'copyrights', // Explicit untuk menghindari pluralisasi aneh
     timestamps: true
   });
 
   return Copyright;
+
 };
