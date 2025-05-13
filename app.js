@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 3000;
 
 // Middleware
 app.use(cors({
-  origin: '*', // Ganti dengan domain frontend kamu
+  origin: 'https://backend-hkipoltek.vercel.app', // Ganti dengan domain frontend kamu
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true
 }));
