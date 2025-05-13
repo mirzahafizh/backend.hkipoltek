@@ -35,4 +35,6 @@ app.use('/payment-methods', paymentMethodRoutes);
 
 
 // Start server
-module.exports = app;
+app.listen(PORT, () => {
+  console.log(`Server berjalan di http://localhost:${PORT}`);
+});
